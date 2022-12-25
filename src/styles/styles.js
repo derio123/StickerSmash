@@ -11,12 +11,21 @@ export const styles = StyleSheet.create({
     paddingTop: 58,
   },
   image: {
+    marginTop: 45,
     width: 320,
     height: 440,
     borderRadius: 18,
   },
   footerContainer: {
-    flex: 1/3,
+    flex: 1 / 3,
     alignItems: 'center',
+  },
+  optionsContainer: {
+    position: 'absolute',
+    bottom: 80,
+  },
+  optionsRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
   }
 });
