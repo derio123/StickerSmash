@@ -42,7 +42,7 @@ export default function App() {
     setIsModalVisible(false);
   }
   const onSaveImage = () => {
-    alert("Não implementado!");
+    alert("Did not implement!");
   }
   return (
     <View style={styles.container}>
